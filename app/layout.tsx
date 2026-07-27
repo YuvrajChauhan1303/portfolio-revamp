@@ -27,9 +27,71 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Yuvraj Chauhan — Software Engineer",
+  metadataBase: new URL("https://dcodr1303.vercel.app"),
+
+  title: {
+    default: "Yuvraj Chauhan — Software Engineer | Security, Systems & AI",
+    template: "%s | Yuvraj Chauhan",
+  },
+
   description:
-    "Software engineer portfolio — projects, experience, education and publications.",
+    "Yuvraj Chauhan is a software engineer and M.Tech CSE student at IIT Bombay, building at the intersection of cybersecurity, systems, and AI. Explore projects, research publications, and experience.",
+
+  keywords: [
+    "Yuvraj Chauhan",
+    "software engineer portfolio",
+    "IIT Bombay",
+    "cybersecurity engineer",
+    "systems engineer",
+    "AI research",
+    "deep learning",
+    "M.Tech Computer Science",
+  ],
+
+  authors: [{ name: "Yuvraj Chauhan", url: "https://dcodr1303.vercel.app" }],
+  creator: "Yuvraj Chauhan",
+  publisher: "Yuvraj Chauhan",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  openGraph: {
+    type: "website",
+    url: "https://dcodr1303.vercel.app",
+    siteName: "Yuvraj Chauhan",
+    title: "Yuvraj Chauhan — Software Engineer | Security, Systems & AI",
+    description:
+      "Software engineer and M.Tech CSE student at IIT Bombay working across cybersecurity, systems, and artificial intelligence. Projects, research, and experience.",
+    images: [
+      {
+        url: "/profile2.png",
+        width: 1200,
+        height: 630,
+        alt: "Yuvraj Chauhan — Software Engineer",
+      },
+    ],
+    locale: "en_US",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Yuvraj Chauhan — Software Engineer",
+    description:
+      "Software engineer and M.Tech CSE student at IIT Bombay working across cybersecurity, systems, and AI.",
+    images: ["/profile2.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
