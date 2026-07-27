@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { Github, Linkedin, Mail } from "lucide-react";
 
 const socials = [
@@ -20,15 +23,31 @@ const socials = [
 ];
 
 export default function Sidebar() {
+  const pathname = usePathname();
+
+  const isHomePage = pathname === "/";
+
   return (
     <aside
-      className="
-        relative w-full flex justify-center
-        lg:fixed lg:inset-y-0 lg:left-0 lg:h-screen
-        lg:w-[400px] xl:w-[440px]
-        lg:items-center lg:p-8
-        py-8 px-6
-      "
+      className={`
+        relative w-full justify-center
+
+        ${isHomePage ? "flex" : "hidden"}
+
+        lg:fixed
+        lg:inset-y-0
+        lg:left-0
+        lg:flex
+        lg:h-screen
+        lg:w-[400px]
+        lg:items-center
+        lg:p-8
+
+        xl:w-[440px]
+
+        py-8
+        px-6
+      `}
     >
       {/* Floating code decoration */}
       <span
@@ -163,13 +182,7 @@ export default function Sidebar() {
         <div className="px-2 pb-2 pt-5">
           {/* Role */}
           <div className="mb-2 flex items-center gap-2">
-            <span
-              className="
-                h-2 w-2
-                rounded-full
-                bg-brass
-              "
-            />
+            <span className="h-2 w-2 rounded-full bg-brass" />
 
             <span
               className="

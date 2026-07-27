@@ -73,7 +73,7 @@ const opinions = [
     rejected: "Black coffee",
   },
   {
-    approved: "Chips",
+    approved: "Lays",
     rejected: "Pringles",
   },
   {
@@ -146,7 +146,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted sm:text-base">
+          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted">
             <p>
               I didn&apos;t grow up knowing everything about computers. In fact,
               I knew surprisingly little before starting my degree. But once I
@@ -155,7 +155,7 @@ export default function AboutPage() {
               clicked.
             </p>
 
-            <p className="text-xl leading-relaxed text-ink sm:text-2xl">
+            <p className="text-xl leading-relaxed text-brass font-display ">
               Being able to turn an idea into instructions, and instructions
               into solutions, felt a little like having superpowers.
             </p>
@@ -245,7 +245,7 @@ export default function AboutPage() {
                 problem because I&apos;m convinced the next attempt will work.
               </p>
 
-              <p className="text-ink">Sometimes it does.</p>
+              <p className="text-white">Sometimes it does.</p>
             </div>
           </div>
 
@@ -297,7 +297,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted sm:text-base">
+          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted">
             <p>
               What I enjoy is the process: finding a problem that doesn&apos;t
               already have an obvious answer, diving into the literature,
@@ -350,7 +350,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted sm:text-base">
+          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted">
             <p>
               I&apos;ve had the opportunity to teach and mentor hundreds of
               students. The part I remember isn&apos;t grading assignments or
@@ -399,7 +399,7 @@ export default function AboutPage() {
             </h2>
           </div>
 
-          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted sm:text-base">
+          <div className="max-w-[65ch] space-y-6 text-[15px] leading-[1.8] text-muted">
             <p>
               Right now, I&apos;m at IIT Bombay trying to become exceptionally
               good at two things:{" "}
