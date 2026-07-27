@@ -74,6 +74,11 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
 
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
+
   twitter: {
     card: "summary_large_image",
     title: "Yuvraj Chauhan — Software Engineer",
