@@ -4,17 +4,17 @@ import { Github, Linkedin, Mail } from "lucide-react";
 const socials = [
   {
     label: "github",
-    href: "https://github.com/yourhandle",
+    href: "https://github.com/YuvrajChauhan1303",
     icon: Github,
   },
   {
     label: "linkedin",
-    href: "https://linkedin.com/in/yourhandle",
+    href: "https://linkedin.com/in/dcodr1303",
     icon: Linkedin,
   },
   {
     label: "email",
-    href: "mailto:your@email.com",
+    href: "mailto:dcodr1303@gmail.com",
     icon: Mail,
   },
 ];
@@ -101,7 +101,7 @@ export default function Sidebar() {
           "
         >
           <Image
-            src="/profile.png"
+            src="/profile2.png"
             alt="Portrait of Yuvraj Chauhan"
             fill
             priority
@@ -141,7 +141,7 @@ export default function Sidebar() {
                 backdrop-blur-md
               "
             >
-              YC · 2026
+              DCODR
             </span>
           </div>
 
@@ -165,7 +165,7 @@ export default function Sidebar() {
           <div className="mb-2 flex items-center gap-2">
             <span
               className="
-                h-1.5 w-1.5
+                h-2 w-2
                 rounded-full
                 bg-brass
               "
@@ -174,7 +174,7 @@ export default function Sidebar() {
             <span
               className="
                 font-mono
-                text-[9px]
+                text-[12px]
                 uppercase
                 tracking-[0.16em]
                 text-brass-dim
@@ -225,7 +225,7 @@ export default function Sidebar() {
                 text-brass/50
               "
             >
-              01 / YC
+              DCODR
             </span>
 
             <div className="h-px w-5 bg-line" />

@@ -12,6 +12,7 @@ const projects = [
       "A lightweight transformer-based continuous authentication system using keystroke dynamics, designed to match state-of-the-art performance with a significantly smaller architecture.",
     stack: "Python · PyTorch · Scikit-learn · Transformers",
     image: "/projects/fusionformer.png",
+    link: "/private-repo",
   },
   {
     slug: "so-sis",
@@ -21,6 +22,7 @@ const projects = [
       "A storage-optimized Secret Image Sharing scheme that reduces cryptographic share sizes using Huffman encoding while preserving secure image reconstruction.",
     stack: "Cryptography · Secret Sharing · Python · MATLAB",
     image: "/projects/so-sis.png",
+    link: "/private-repo",
   },
   {
     slug: "electronic-elections",
@@ -30,6 +32,7 @@ const projects = [
       "A secure two-party electronic voting system combining ElGamal encryption and Shamir's Secret Sharing with an isolated, Dockerized server architecture.",
     stack: "Cryptography · Python · Flask · Docker · OpenSSL",
     image: "/projects/elections.png",
+    link: "https://github.com/YuvrajChauhan1303/electronic-election",
   },
   {
     slug: "virtual-electrical-lab",
@@ -39,6 +42,7 @@ const projects = [
       "An immersive virtual laboratory connecting a Unity-based environment with physical IoT hardware for real-time electrical experiments.",
     stack: "Unity · Blender · C# · Node.js · Arduino · ESP32",
     image: "/projects/vr.png",
+    link: "/private-repo",
   },
   {
     slug: "adaptive-enemy-ai",
@@ -48,6 +52,7 @@ const projects = [
       "A reinforcement-learning driven game AI using Proximal Policy Optimization, exploring how neural architectures influence adaptive enemy difficulty.",
     stack: "Reinforcement Learning · PPO · PyTorch · Unity ML-Agents",
     image: "/projects/ppo.png",
+    link: "https://github.com/YuvrajChauhan1303/Neural-Brawl",
   },
   {
     slug: "chiron",
@@ -57,6 +62,7 @@ const projects = [
       "A gesture-controlled robotic system using IMU-based motion sensing and networked communication for remotely controlling a physical bot.",
     stack: "Raspberry Pi Pico W · ESP8266 · MPU6050 · MicroPython",
     image: "/projects/chiron.png",
+    link: "https://github.com/YuvrajChauhan1303/server-bb",
   },
 ] as const;
 
@@ -73,7 +79,7 @@ export default function ProjectsPage() {
         {projects.map((p, i) => (
           <Link
             key={p.slug}
-            href={`#${p.slug}`}
+            href={p.link}
             className="group card overflow-hidden flex flex-col"
           >
             <div className="relative aspect-[16/11] overflow-hidden">

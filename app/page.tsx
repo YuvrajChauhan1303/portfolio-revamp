@@ -56,10 +56,10 @@ export default function HomePage() {
           </Link>
 
           <Link
-            href="/experience"
+            href="/about"
             className="inline-flex items-center gap-2 rounded-full border border-line px-5 py-2.5 text-sm text-ink/80 hover:text-ink hover:border-ink/30 transition-colors"
           >
-            See experience
+            Know More
           </Link>
         </div>
       </section>
