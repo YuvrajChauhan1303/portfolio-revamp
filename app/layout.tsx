@@ -12,6 +12,12 @@ const fraunces = Fraunces({
   display: "swap",
 });
 
+import { JetBrains_Mono } from "next/font/google";
+
+const treeFont = JetBrains_Mono({
+  subsets: ["latin"],
+});
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",

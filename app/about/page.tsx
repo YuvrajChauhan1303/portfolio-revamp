@@ -319,7 +319,7 @@ export default function AboutPage() {
             </p>
 
             <Link
-              href="/research"
+              href="/publications"
               className="inline-flex items-center gap-2 pt-2 font-mono text-xs text-ink transition-colors hover:text-brass"
             >
               Research & publications
